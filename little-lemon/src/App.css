@@ -1,18 +1,84 @@
+@font-face {
+  font-family: 'Karla Variable';
+  src: url('./font_assets/Karla/Karla-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Markazi Variable';
+  src: url('./font_assets/Markazi_Text/MarkaziText-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --primary-green: #495E57;
+  --primary-yellow: #F4CE14;
+  --secondary-orange: #EE9972;
+  --secondary-peach: #FBDABB;
+  --highlight-white: #EDEFEE;
+  --highlight-black: #333333;
+}
+
+
+h1 {
+  font-family: 'Markazi Variable';
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Markazi Variable';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: 'Markazi Variable';
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h4 {
+  font-family: 'Karla Variable';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+p {
+  font-family: 'Karla Variable';
+  font-size: 16px;
+}
+
+div {
+  border-radius: 16px;
+  line-height: 1.5;
+  font-family: 'Markazi Variable';
+  font-size: 25px;
+  font-weight: 500;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 1em;
+  text-align: center;
 }
 
+/* general consensus: use grid for container, flex for items: https://stackoverflow.com/questions/45536537/centering-in-css-grid */
 .grid-item {
   background: #F7F7F7;
   padding: 1em;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .grid-item-2 {
   background: #F7F7F7;
   padding: 1em;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-column: span 2;
 }
