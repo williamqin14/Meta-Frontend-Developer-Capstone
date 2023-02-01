@@ -7,7 +7,7 @@ export default function Nav() {
         <nav class="grid">
             <div class="grid-item-2"/>
             <div class="grid-item-2">
-                <img style={{maxWidth:'100'}} src={logo} alt="Little Lemon Restaurant Logo"/>
+                <img src={logo} alt="Little Lemon Restaurant Logo" style={{objectFit: 'none'}}/>
             </div>
             <div class="grid-item">Home</div>
             <div class="grid-item">About</div>

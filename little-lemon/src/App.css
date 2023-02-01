@@ -25,6 +25,7 @@
 h1 {
   font-family: 'Markazi Variable';
   font-size: 40px;
+  color:#F4CE14;
 }
 
 h2 {
@@ -37,21 +38,28 @@ h3 {
   font-family: 'Markazi Variable';
   font-size: 18px;
   font-weight: 700;
+  width: 100%;
 }
 
 h4 {
   font-family: 'Karla Variable';
   font-size: 16px;
   font-weight: 500;
+  text-align: right;
+  width: 100%;
+  color:#EE9972;
 }
 
 p {
   font-family: 'Karla Variable';
   font-size: 16px;
+  /* overflow: hidden;
+  text-overflow: ellipsis; */
+
 }
 
 div {
-  border-radius: 16px;
+  /* border-radius: 16px; */
   line-height: 1.5;
   font-family: 'Markazi Variable';
   font-size: 25px;
@@ -62,23 +70,128 @@ div {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 1em;
+  margin-bottom: 25px;
   text-align: center;
+  /* background: #EDEFEE; */
 }
 
 /* general consensus: use grid for container, flex for items: https://stackoverflow.com/questions/45536537/centering-in-css-grid */
 .grid-item {
-  background: #F7F7F7;
-  padding: 1em;
+  /* background: #F7F7F7; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .grid-item-2 {
-  background: #F7F7F7;
-  padding: 1em;
+  /* background: #F7F7F7; */
   display: flex;
   align-items: center;
   justify-content: center;
   grid-column: span 2;
+}
+
+.grid-item-3 {
+  /* background: #F7F7F7; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: span 3;
+}
+
+.grid-item-4 {
+  /* background: #F7F7F7; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: span 4;
+}
+
+.grid-item-5 {
+  /* background: #F7F7F7; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: span 5;
+}
+
+.grid-item-6 {
+  /* background: #F7F7F7; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: span 6;
+}
+
+.grid-item-8 {
+  /* background: #F7F7F7; */
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  grid-column: span 8;
+}
+
+.column-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
+.row-text {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  width: 100%;
+}
+
+.column-text-padded {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  height: 60%;
+  padding: 25px;
+}
+
+.row-card {
+  flex-direction: column;
+  max-width: 30%;
+  max-height: 100%;
+  text-align: left;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-container {
+  width: 100%;
+  height: 205px;
+}
+
+.img-container-half {
+  width: 50%;
+  max-width: 100%;
+}
+
+.button-sm {
+  border-radius: 16px;
+  background: #F4CE14;
+  border: 0; /* https://stackoverflow.com/questions/56214233/css-input-border-radius-on-all-corners-causes-a-strange-shadow */
+  width: 60%;
+  font-family: 'Markazi Variable';
+  font-size: 25px;
+}
+
+.button-lg {
+  border-radius: 16px;
+  background: #F4CE14;
+  border: 0; /* https://stackoverflow.com/questions/56214233/css-input-border-radius-on-all-corners-causes-a-strange-shadow */
+  width: 100%;
+  font-family: 'Markazi Variable';
+  font-size: 25px;
 }
