@@ -4,18 +4,18 @@ import logo from '../icons_assets/Logo.svg'
 
 export default function Nav() {
     return (
-        <nav class="grid">
-            <div class="grid-item-2"/>
-            <div class="grid-item-2">
+        <nav className="grid">
+            <div className="grid-item-2"/>
+            <div className="grid-item-2">
                 <img src={logo} alt="Little Lemon Restaurant Logo" style={{objectFit: 'none'}}/>
             </div>
-            <div class="grid-item">Home</div>
-            <div class="grid-item">About</div>
-            <div class="grid-item">Menu</div>
-            <div class="grid-item">Reservation</div>
-            <div class="grid-item">Order Online</div>
-            <div class="grid-item">Login</div>
-            <div class="grid-item-2"></div>
+            <div className="grid-item">Home</div>
+            <div className="grid-item">About</div>
+            <div className="grid-item">Menu</div>
+            <div className="grid-item">Reservation</div>
+            <div className="grid-item">Order Online</div>
+            <div className="grid-item">Login</div>
+            <div className="grid-item-2"></div>
         </nav>
     )
 }

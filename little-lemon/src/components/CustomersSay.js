@@ -8,19 +8,19 @@ export default function CustomersSay() {
 
     return (
         <>
-            <div class='grid'>
-                <div class='grid-item-5'></div>
-                <div class='grid-item-2'>
+            <div className='grid'>
+                <div className='grid-item-5'></div>
+                <div className='grid-item-2'>
                     <h2>Testimonials</h2>
                 </div>
             </div>
-            <div class='grid'>
-                <div class='grid-item-2'></div>
-                <div class='grid-item-2'>
-                    <div class='column-text'>
+            <div className='grid'>
+                <div className='grid-item-2'></div>
+                <div className='grid-item-2'>
+                    <div className='column-text'>
                         <h3>Rating</h3>
-                        <div class='row-text'>
-                            <div class='img-container-half'>
+                        <div className='row-text'>
+                            <div className='img-container-half'>
                                 <img src={person} alt=''></img>
                             </div>
                             <p style={styling}>name</p>
@@ -28,11 +28,11 @@ export default function CustomersSay() {
                         <p>Review Text</p>
                     </div>
                 </div>
-                <div class='grid-item-2'>
-                    <div class='column-text'>
+                <div className='grid-item-2'>
+                    <div className='column-text'>
                         <h3>Rating</h3>
-                        <div class='row-text'>
-                            <div class='img-container-half'>
+                        <div className='row-text'>
+                            <div className='img-container-half'>
                                 <img src={person} alt=''></img>
                             </div>
                             <p style={styling}>name</p>
@@ -40,11 +40,11 @@ export default function CustomersSay() {
                         <p>Review Text</p>
                     </div>
                 </div>
-                <div class='grid-item-2'>
-                    <div class='column-text'>
+                <div className='grid-item-2'>
+                    <div className='column-text'>
                         <h3>Rating</h3>
-                        <div class='row-text'>
-                            <div class='img-container-half'>
+                        <div className='row-text'>
+                            <div className='img-container-half'>
                                 <img src={person} alt=''></img>
                             </div>
                             <p style={styling}>name</p>
@@ -52,11 +52,11 @@ export default function CustomersSay() {
                         <p>Review Text</p>
                     </div>
                 </div>
-                <div class='grid-item-2'>
-                    <div class='column-text'>
+                <div className='grid-item-2'>
+                    <div className='column-text'>
                         <h3>Rating</h3>
-                        <div class='row-text'>
-                            <div class='img-container-half'>
+                        <div className='row-text'>
+                            <div className='img-container-half'>
                                 <img src={person} alt=''></img>
                             </div>
                             <p style={styling}>name</p>

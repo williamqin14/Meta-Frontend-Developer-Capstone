@@ -1,4 +1,5 @@
 import pic from '../icons_assets/restauranfood.jpg';
+import { Link } from 'react-router-dom';
 
 export default function CallToAction() {
     //easier css modification
@@ -17,21 +18,22 @@ export default function CallToAction() {
         borderRadius: '40px',
     }
     return (
-        <div class='grid' style={gridStyle}>
-            <div class='grid-item-2' style={gridStyle}/>
-            <div class='grid-item-3' style={gridStyle}>
-                <div class="column-text" style={textStyle} >
+        <div className='grid' style={gridStyle}>
+            <div className='grid-item-2' style={gridStyle}/>
+            <div className='grid-item-3' style={gridStyle}>
+                <div className="column-text" style={textStyle} >
                     <h1 style={h1Style}>Little Lemon</h1>
                     <h2>Chicago</h2>
                     <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-                    {/* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button */}
-                    <input class='button-sm' type="button" value='Reserve a Table'></input>
-                    
+                    <Link to="/booking">
+                        {/* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button */}
+                        <input className='button-sm' type="button" value='Reserve a Table'></input>
+                    </Link>
                 </div>
             </div>
-            <div class='grid-item-2' style={gridStyle}></div>
-            <img src={pic} alt='' class='grid-item-3' style={imgStyle}></img>
-            <div class='grid-item-2'style={gridStyle}/>
+            <div className='grid-item-2' style={gridStyle}></div>
+            <img src={pic} alt='' className='grid-item-3' style={imgStyle}></img>
+            <div className='grid-item-2'style={gridStyle}/>
 
         </div>
     )

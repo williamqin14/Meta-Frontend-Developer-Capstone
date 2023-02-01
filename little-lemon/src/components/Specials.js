@@ -11,26 +11,26 @@ export default function Specials() {
 
     return (
         <>
-            <div class='grid'>
-                <div class='grid-item-2'></div>
-                <div class='grid-item-6'>
-                    <div class='column-text'>
+            <div className='grid'>
+                <div className='grid-item-2'></div>
+                <div className='grid-item-6'>
+                    <div className='column-text'>
                         <h2 style={{fontSize: '60px'}}>This weeks specials!</h2>
                     </div>
                 </div>
-                <div class='grid-item-2'>
-                    <input class='button-lg' type='button' value='Online Menu'></input>
+                <div className='grid-item-2'>
+                    <input className='button-lg' type='button' value='Online Menu'></input>
                 </div>
             </div>
-            <div class='grid'>
-                <div class='grid-item-2'></div>
-                <div class='grid-item-8'>
-                    <div class='row-card'>
-                        <div class='img-container'>
+            <div className='grid'>
+                <div className='grid-item-2'></div>
+                <div className='grid-item-8'>
+                    <div className='row-card'>
+                        <div className='img-container'>
                             <img src={greekSalad} alt='' style={imgStyle} ></img>
                         </div>
-                        <div class='column-text-padded'>
-                            <div class='row-text' style={{height: '30%'}}>
+                        <div className='column-text-padded'>
+                            <div className='row-text' style={{height: '30%'}}>
                                 <h3>Greek salad</h3>
                                 <h4>$12.99</h4>
                             </div>
@@ -38,12 +38,12 @@ export default function Specials() {
                             <h3 style={{fontSize: '20px'}}>Order a delivery</h3>
                         </div>
                     </div>
-                    <div class='row-card' style={{marginLeft: '5%', marginRight: '5%'}}>
-                        <div class='img-container'>
+                    <div className='row-card' style={{marginLeft: '5%', marginRight: '5%'}}>
+                        <div className='img-container'>
                             <img src={bruchetta} alt='' style={imgStyle} ></img>
                         </div>
-                        <div class='column-text-padded'>
-                            <div class='row-text' style={{height: '30%'}}>
+                        <div className='column-text-padded'>
+                            <div className='row-text' style={{height: '30%'}}>
                                 <h3>Bruchetta</h3>
                                 <h4>$5.99</h4>
                             </div>
@@ -51,12 +51,12 @@ export default function Specials() {
                             <h3 style={{fontSize: '20px'}}>Order a delivery</h3>
                         </div>
                     </div>
-                    <div class='row-card'>
-                        <div class='img-container'>
+                    <div className='row-card'>
+                        <div className='img-container'>
                             <img src={lemonDessert} alt='' style={imgStyle} ></img>
                         </div>
-                        <div class='column-text-padded'>
-                            <div class='row-text' style={{height: '30%'}}>
+                        <div className='column-text-padded'>
+                            <div className='row-text' style={{height: '30%'}}>
                                 <h3>Lemon dessert</h3>
                                 <h4>$5.00</h4>
                             </div>
