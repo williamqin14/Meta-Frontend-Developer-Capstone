@@ -5,7 +5,7 @@ export default function BookingPage(props) {
 
     return (
         <>
-        <BookingForm state={props.state} dispatch={props.dispatch}></BookingForm>
+        <BookingForm state={props.state} dispatch={props.dispatch} submitForm={props.submitForm}></BookingForm>
         </>
     );
 }

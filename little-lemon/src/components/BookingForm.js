@@ -10,10 +10,7 @@ export default function BookingForm(props) {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(date);
-        console.log(time);
-        console.log(guests);
-        console.log(occasion);
+        props.submitForm({date: date, time: time, guests: guests, occasion: occasion});
     }
 
     return (
@@ -35,7 +32,7 @@ export default function BookingForm(props) {
                     <option>Birthday</option>
                     <option>Anniversary</option>
                 </select>
-                <input type="submit" value="Make Your reservation"/>
+                <input aria-label="On Click" type="submit" value="Make Your reservation" disabled={!date}/>
             </form>
         </>
     );

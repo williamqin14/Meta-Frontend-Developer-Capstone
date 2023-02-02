@@ -3,8 +3,9 @@ import './font_assets/Karla/Karla-VariableFont_wght.ttf';
 import './font_assets/Markazi_Text/MarkaziText-VariableFont_wght.ttf';
 import HomePage from './components/HomePage';
 import BookingPage from './components/BookingPage';
-import {Routes, Route} from 'react-router-dom';
-import {useReducer, useEffect} from 'react';
+import ConfirmedBooking from './components/ConfirmedBooking';
+import {Routes, Route, useNavigate} from 'react-router-dom';
+import {React, useReducer, useEffect} from 'react';
 
 function App() {
   // const settings = { 
@@ -67,11 +68,19 @@ function App() {
 
   const [state, dispatch] = useReducer(updateTimes, initializeTimes);
 
+  const navigate = useNavigate();
+  const submitForm = (formData) => {
+    const success = submitAPI(formData);
+    console.log(formData);
+    if(success) navigate("/booking/confirmed");
+  }
+
   return (
     <>
     <Routes> 
       <Route path="/" element={<HomePage />}></Route>
-      <Route path="/booking" element={<BookingPage  state={state} dispatch={dispatch}/>}></Route>
+      <Route path="/booking" element={<BookingPage  state={state} dispatch={dispatch} submitForm={submitForm}/>}></Route>
+      <Route path="/booking/confirmed" element={<ConfirmedBooking></ConfirmedBooking>}></Route>
     </Routes>
     </>
   );
@@ -79,6 +88,39 @@ function App() {
 
 export default App;
 
+// for unit testing, ignore
 export const initializeTimes = {availableTimes: ['17:00', '18:00', '19:00', '20:00', '21:00', '22:00']};
+const seededRandom = function (seed) {
+  var m = 2**35 - 31;
+  var a = 185852;
+  var s = seed % m;
+  return function () {
+      return (s = s * a % m) / m;
+  };
+}
+const fetchAPI = function(date) {
+  let result = [];
+  let random = seededRandom(new Date(date));
+
+  for(let i = 17; i <= 23; i++) {
+      if(random() < 0.5) {
+          result.push(i + ':00');
+      }
+      if(random() < 0.5) {
+          result.push(i + ':30');
+      }
+  }
+  return result;
+};
+export const updateTimes = (state, action) => {
+  switch(action.type) {
+    case 'setTime': 
+      const fetchNewTimes = fetchAPI(action.value);
+      return {...state, availableTimes: fetchNewTimes};
+    default:
+      return state;
+  }
+}
+
 
 

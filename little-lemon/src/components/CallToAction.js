@@ -27,7 +27,7 @@ export default function CallToAction() {
                     <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
                     <Link to="/booking">
                         {/* https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/button */}
-                        <input className='button-sm' type="button" value='Reserve a Table'></input>
+                        <input aria-label="On Click" className='button-sm' type="button" value='Reserve a Table'></input>
                     </Link>
                 </div>
             </div>
