@@ -1,7 +1,11 @@
+import { useEffect } from 'react';
 import BookingForm from './BookingForm';
 
-export default function BookingPage() {
+export default function BookingPage(props) {
+
     return (
-        <BookingForm></BookingForm>
+        <>
+        <BookingForm state={props.state} dispatch={props.dispatch}></BookingForm>
+        </>
     );
 }
