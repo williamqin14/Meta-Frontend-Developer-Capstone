@@ -1,10 +1,10 @@
 # Getting Started 
 Run in this order:
 
-cd ./little-lemon
-npm install
-npm start
+* cd ./little-lemon
+* npm install
+* npm start
 
 To run tests:
-npx jest app.test.js
+* npx jest app.test.js
 
