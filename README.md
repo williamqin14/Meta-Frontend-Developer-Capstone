@@ -1,9 +1,10 @@
+
 # Meta-Frontend-Developer-Capstone
 
 Website preview:
-<img width="1727" alt="Screenshot 2023-08-15 at 2 16 20 PM" src="https://github.com/williamqin14/Meta-Frontend-Developer-Capstone/assets/84489685/9b0b6368-40b9-4afe-a60c-f3b901b91c2d">
-<img width="1727" alt="Screenshot 2023-08-15 at 2 16 39 PM" src="https://github.com/williamqin14/Meta-Frontend-Developer-Capstone/assets/84489685/b83d2d4e-8b8a-4822-985d-8f510e8145f2">
-<img width="1727" alt="Screenshot 2023-08-15 at 2 16 39 PM" src="https://github.com/williamqin14/Meta-Frontend-Developer-Capstone/assets/84489685/4932f3e1-9323-4932-86dd-e5cc2ca774ca">
+![Uploading Screenshot 2023-08-15 at 2.23.18 PM.png…]()
+![Uploading Screenshot 2023-08-15 at 2.23.29 PM.png…]()
+<img width="1728" alt="Screenshot 2023-08-15 at 2 23 42 PM" src="https://github.com/williamqin14/Meta-Frontend-Developer-Capstone/assets/84489685/f2141aca-0580-451d-b862-0e34675b15cf">
 
 Figma website design:
 <img width="698" alt="Screenshot 2023-08-15 at 2 19 49 PM" src="https://github.com/williamqin14/Meta-Frontend-Developer-Capstone/assets/84489685/58c20498-fcc4-4124-9375-5a40eb536661">
