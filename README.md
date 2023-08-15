@@ -3,6 +3,8 @@
 
 Mock website built for the capstone project of the Meta Front-End Developer Professional Certificate. Frontend built with React and designed in Figma.
 
+To run the project go to the "little-lemon" folder.
+
 ## Website preview:
 <img width="1728" alt="Screenshot 2023-08-15 at 2 23 18 PM" src="https://github.com/williamqin14/Meta-Frontend-Developer-Capstone/assets/84489685/a12724fb-6027-4b93-a0c1-a8d121c077cf">
 <img width="1728" alt="Screenshot 2023-08-15 at 2 23 29 PM" src="https://github.com/williamqin14/Meta-Frontend-Developer-Capstone/assets/84489685/84ed2854-5724-43b1-9e0e-309ad236c48e">
