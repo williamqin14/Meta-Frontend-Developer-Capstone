@@ -1,5 +1,5 @@
 
-# Meta-Frontend-Developer-Capstone
+# Meta Frontend Developer Capstone
 
 Mock website built for the capstone project of the Meta Front-End Developer Professional Certificate. Frontend built with React and designed in Figma.
 
