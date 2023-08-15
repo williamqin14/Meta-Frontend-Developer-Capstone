@@ -2,8 +2,8 @@
 # Meta-Frontend-Developer-Capstone
 
 Website preview:
-![Uploading Screenshot 2023-08-15 at 2.23.18 PM.png…]()
-![Uploading Screenshot 2023-08-15 at 2.23.29 PM.png…]()
+<img width="1728" alt="Screenshot 2023-08-15 at 2 23 18 PM" src="https://github.com/williamqin14/Meta-Frontend-Developer-Capstone/assets/84489685/a12724fb-6027-4b93-a0c1-a8d121c077cf">
+<img width="1728" alt="Screenshot 2023-08-15 at 2 23 29 PM" src="https://github.com/williamqin14/Meta-Frontend-Developer-Capstone/assets/84489685/84ed2854-5724-43b1-9e0e-309ad236c48e">
 <img width="1728" alt="Screenshot 2023-08-15 at 2 23 42 PM" src="https://github.com/williamqin14/Meta-Frontend-Developer-Capstone/assets/84489685/f2141aca-0580-451d-b862-0e34675b15cf">
 
 Figma website design:
